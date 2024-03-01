@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Survey Form.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+        <h1 id="tittle">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platfor</p>
+
+        <form id="survey-form" class="form">
+
+            <label for="name" id="name-label">Nombre</label>
+            <input type="text" id="name" placeholder="Introduce tu nombre" required>
+
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" placeholder="Introduce tu email" required>
+
+            <label for="number" id="number-label">Numero</label>
+            <input type="number" id="number" placeholder="Introduce tu numero" min="0" max="99999999">
+
+            <label for="select">
+                Eres mayor de edad?
+                <select name="" id="select">
+                    <option value="0">No</option>
+                    <option value="1">Si</option>
+                </select>
+                
+            </label>
+            
+            <label for="grupo">
+                <input type="radio" name="grupo">
+                Te gustan los coches?
+
+            </label>
+
+            <label for="grupo">
+
+                <input type="radio" name="grupo">
+                Te gusta la escuela?
+
+            </label>
+
+            <h3>Que opcion te gustaria mas</h3>
+
+            <label for="tamal">
+                <input type="checkbox" value="Tamal" id="tamal">
+                Opcion 1
+            </label>
+
+            
+            <label for="tamarindo">
+
+                <input type="checkbox" value="Tamarindo" id="tamarindo">
+                Opcion 2
+            </label>
+
+            <h3>Algun comentario?</h3>
+            <label for="text">
+                <textarea name="ola" id="text" cols="20" rows="5" placeholder="Escribe aqui"></textarea>
+            </label>
+            
+    
+
+            <button id="submit">Submit</button>
+            
+
+        </form>
+    </main>
+    
+</body>
+</html>
